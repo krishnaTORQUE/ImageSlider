@@ -1,6 +1,6 @@
 # Change Log & History
 
-#### -
+#### 28-09-2016
         Stable Version 1.3
         Complete Re Written
         
