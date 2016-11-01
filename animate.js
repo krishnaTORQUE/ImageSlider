@@ -6,10 +6,10 @@ var animate = {
      * Fade (In, Out)
      */
     fade: function (elem, inout, time) {
-        if (typeof (time) === 'undefined') {
+        if (typeof (time) === undefined) {
             time = '5';
         }
-        if (typeof (inout) === 'undefined') {
+        if (typeof (inout) === undefined) {
             inout = 'out';
         }
         switch (inout) {
@@ -50,10 +50,10 @@ var animate = {
      * Slide (Up, Down)
      */
     slide: function (elem, updown, time) {
-        if (typeof (time) === 'undefined') {
+        if (typeof (time) === undefined) {
             time = '5';
         }
-        if (typeof (updown) === 'undefined') {
+        if (typeof (updown) === undefined) {
             updown = 'up';
         }
         elem.style.overflow = 'hidden';

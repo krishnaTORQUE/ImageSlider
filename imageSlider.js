@@ -17,13 +17,15 @@ function imageSlider(arg) {
 
         var imgsldr_img = imgsldr[i].getElementsByTagName('img');
         var imgsldr_title = imgsldr[i].getElementsByClassName('imageSlider_title');
-        var height;
+        var height, alt_nam;
 
         /*
          * Initial Image Slider
          */
+         alert(alt_nam);
         if (imgsldr_title.length > 0 && imgsldr_img[0].hasAttribute('alt')) {
-            imgsldr_title[0].textContent = imgsldr_img[0].getAttribute('alt');
+            alt_nam = imgsldr_img[0].getAttribute('alt');
+            imgsldr_title[0].textContent = alt_nam;
         }
         imgsldr_img[0].style.display = 'inline-block';
         imgsldr[i].style.display = 'block';
