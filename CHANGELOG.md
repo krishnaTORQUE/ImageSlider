@@ -1,5 +1,9 @@
 # Change Log & History
 
+#### 02-11-2016
+    Stable Version 1.4.2
+    Single Bug Fixed
+
 #### 01-11-2016
     Stable Version 1.4
     Stability Improved

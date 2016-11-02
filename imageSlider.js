@@ -22,7 +22,6 @@ function imageSlider(arg) {
         /*
          * Initial Image Slider
          */
-         alert(alt_nam);
         if (imgsldr_title.length > 0 && imgsldr_img[0].hasAttribute('alt')) {
             alt_nam = imgsldr_img[0].getAttribute('alt');
             imgsldr_title[0].textContent = alt_nam;

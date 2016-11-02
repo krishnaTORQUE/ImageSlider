@@ -12,7 +12,7 @@ LightWeight
 Thank You
 
 ### Version 
-Stable Version 1.4
+Stable Version 1.4.2
 
 ### License
 (C) 2015 - 2016
