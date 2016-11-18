@@ -1,5 +1,13 @@
 # Change Log & History
 
+#### 18-11-2016
+    Stable Version 1.4.4
+    Library Update
+    Stability Improved
+
+    Changed:
+        animate.js > slidelibrary.js
+
 #### 02-11-2016
     Stable Version 1.4.2
     Single Bug Fixed

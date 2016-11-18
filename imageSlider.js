@@ -1,7 +1,15 @@
+/*
+ * Image Slider Version 1.4.4
+ * License: (C) 2015 - 2016 under GNU General Public License Version 2.
+ * Develop By Club Coding: http://clubcoding.com/
+ * Download/Clone: https://github.com/krishnaTORQUE/ImageSlider
+ */
 function imageSlider(arg) {
+
     /* 
      * Set Values
      */
+
     if (!arg.style) {
         arg.style = 'fade';
     }
@@ -22,21 +30,31 @@ function imageSlider(arg) {
         /*
          * Initial Image Slider
          */
+
         if (imgsldr_title.length > 0 && imgsldr_img[0].hasAttribute('alt')) {
             alt_nam = imgsldr_img[0].getAttribute('alt');
             imgsldr_title[0].textContent = alt_nam;
         }
         imgsldr_img[0].style.display = 'inline-block';
-        imgsldr[i].style.display = 'block';
+
         /*
          * Set Height
          */
+
         height = imgsldr_img[0].clientHeight + 'px';
         imgsldr[i].style.height = height;
 
         /*
+         * Showing Slider
+         */
+
+        imgsldr[i].style.display = 'block';
+        imgsldr[i].style.visibility = 'visible';
+
+        /*
          * Start Animation
          */
+
         var counts = 1;
         var imgsldr_setInt = setInterval(function () {
 
@@ -45,6 +63,7 @@ function imageSlider(arg) {
                 /*
                  * Fade Style
                  */
+
                 case 'fade':
                     if (counts > imgsldr_img.length - 1) {
                         counts = 0;
@@ -66,6 +85,7 @@ function imageSlider(arg) {
                     /*
                      * Slide Style
                      */
+
                 case 'slide':
                     if (counts > imgsldr_img.length - 1) {
                         counts = 0;

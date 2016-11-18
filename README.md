@@ -3,20 +3,16 @@
 ### Description
 Pure JavaScript Image Slider
 
-LightWeight
-
-    Let me know:
-        your review.
-        if you found any bug/error.
-
-Thank You
+LightWeight & Responsive
 
 ### Version 
-Stable Version 1.4.2
+Stable Version 1.4.4
 
 ### License
 (C) 2015 - 2016
 under GNU General Public License Version 2.
+
+### Develop By [Club Coding] (http://clubcoding.com/)
 
 ### ScreenShot
 ![Alt text](SCREENSHOT.png?raw=true "ScreenShot")
@@ -24,7 +20,7 @@ under GNU General Public License Version 2.
 ### Example
 ```html
 <link rel="stylesheet" type="text/css" href="imageSlider.css"/>
-<script type="text/javascript" src="animate.js"></script>
+<script type="text/javascript" src="slidelibrary.js"></script>
 <script type="text/javascript" src="imageSlider.js"></script>
 
 <div class="imageSlider class_name">

@@ -1,9 +1,9 @@
-.imageSlider,
-.imageSlider .imageSlider_title{
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-}
+/*
+ * Image Slider Version 1.4.4
+ * License: (C) 2015 - 2016 under GNU General Public License Version 2.
+ * Develop By Club Coding: http://clubcoding.com/
+ * Download/Clone: https://github.com/krishnaTORQUE/ImageSlider
+ */
 
 /* 
  * Main Element 
@@ -12,6 +12,7 @@
     box-shadow: 0 0 15px #aaa;	
     position: relative;
     display: none;
+    visibility: hidden;
 }
 
 /*
@@ -26,6 +27,13 @@
     text-align: center;
     position: absolute;
     cursor: default;
+}
+
+.imageSlider,
+.imageSlider .imageSlider_title{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 /*
