@@ -1,5 +1,5 @@
 /*
- * Image Slider Version 1.4.4
+ * Image Slider Version 1.5
  * License: (C) 2015 - 2016 under GNU General Public License Version 2.
  * Develop By Club Coding: http://clubcoding.com/
  * Download/Clone: https://github.com/krishnaTORQUE/ImageSlider
@@ -36,6 +36,7 @@ function imageSlider(arg) {
             imgsldr_title[0].textContent = alt_nam;
         }
         imgsldr_img[0].style.display = 'inline-block';
+        imgsldr[i].style.display = 'block';
 
         /*
          * Set Height
@@ -48,7 +49,6 @@ function imageSlider(arg) {
          * Showing Slider
          */
 
-        imgsldr[i].style.display = 'block';
         imgsldr[i].style.visibility = 'visible';
 
         /*

@@ -1,5 +1,5 @@
 /*
- * Image Slider Version 1.4.4
+ * Image Slider Version 1.5
  * License: (C) 2015 - 2016 under GNU General Public License Version 2.
  * Develop By Club Coding: http://clubcoding.com/
  * Download/Clone: https://github.com/krishnaTORQUE/ImageSlider

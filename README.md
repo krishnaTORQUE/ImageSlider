@@ -6,7 +6,7 @@ Pure JavaScript Image Slider
 LightWeight & Responsive
 
 ### Version 
-Stable Version 1.4.4
+Stable Version 1.5
 
 ### License
 (C) 2015 - 2016

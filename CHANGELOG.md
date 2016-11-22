@@ -1,5 +1,9 @@
 # Change Log & History
 
+#### 22-11-2016
+    Stable Version 1.5
+    Render Bug Fixed
+
 #### 18-11-2016
     Stable Version 1.4.4
     Library Update
